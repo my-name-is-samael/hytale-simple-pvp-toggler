@@ -1,0 +1,18 @@
+status = "PvP狀態："
+status.on = 開啟
+status.off = 關閉
+
+join.misconfigured-worlds = "服務器包含強制關閉PvP的世界。請檢查您的服務器配置以使用SimplePvPToggler插件。\n配置錯誤的世界："
+
+op-status = PvP世界狀態：
+
+command.show.description = 顯示PvP狀態
+command.set.description = 設置PvP狀態
+command.set.arg.state = 所需的PvP狀態（"on"或"off"）
+command.set.arg.state.invalid = 新狀態必須是"on"或"off"
+command.set.arg.world = 目標世界（默認為當前世界）
+command.set.arg.world.invalid = 找不到世界{worldName}
+command.set.already = "世界{worldName}的PvP狀態已經是"
+command.set.world-blacklisted = 此世界的PvP狀態無法更改
+command.set.world-misconfigured = 世界{worldName}的PvP狀態被服務器配置禁用
+command.set.changed = "世界{worldName}的PvP狀態現在是"

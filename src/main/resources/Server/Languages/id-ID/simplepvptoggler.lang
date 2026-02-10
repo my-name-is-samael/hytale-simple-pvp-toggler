@@ -1,0 +1,18 @@
+status = "PvP "
+status.on = AKTIF
+status.off = NONAKTIF
+
+join.misconfigured-worlds = "Server mengandung dunia dengan PvP dipaksa NONAKTIF. Silakan periksa konfigurasi server Anda untuk menggunakan plugin SimplePvPToggler.\nDunia yang salah konfigurasi: "
+
+op-status = Status PvP dunia:
+
+command.show.description = Menampilkan status PvP
+command.set.description = Mengatur status PvP
+command.set.arg.state = Status PvP yang diinginkan ("on" atau "off")
+command.set.arg.state.invalid = Status baru harus "on" atau "off"
+command.set.arg.world = Dunia target (dunia saat ini secara default)
+command.set.arg.world.invalid = Dunia {worldName} tidak dapat ditemukan
+command.set.already = "Status PvP dunia {worldName} sudah "
+command.set.world-blacklisted = Status PvP tidak dapat diubah untuk dunia ini
+command.set.world-misconfigured = Status PvP dunia {worldName} dinonaktifkan oleh konfigurasi server
+command.set.changed = "Status PvP dunia {worldName} sekarang "

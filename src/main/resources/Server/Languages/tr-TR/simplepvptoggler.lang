@@ -1,0 +1,18 @@
+status = "PvP "
+status.on = AÇIK
+status.off = KAPALI
+
+join.misconfigured-worlds = "Sunucu PvP'si zorla KAPALI olan dünyalar içeriyor. SimplePvPToggler eklentisini kullanmak için lütfen sunucu yapılandırmanızı kontrol edin.\nYanlış yapılandırılmış dünyalar: "
+
+op-status = PvP dünya durumları:
+
+command.show.description = PvP durumunu gösterir
+command.set.description = PvP durumunu ayarlar
+command.set.arg.state = İstenen PvP durumu ("on" veya "off")
+command.set.arg.state.invalid = Yeni durum "on" veya "off" olmalıdır
+command.set.arg.world = Hedef dünya (varsayılan olarak mevcut dünya)
+command.set.arg.world.invalid = {worldName} dünyası bulunamıyor
+command.set.already = "{worldName} dünyasının PvP durumu zaten "
+command.set.world-blacklisted = Bu dünya için PvP durumu değiştirilemez
+command.set.world-misconfigured = {worldName} dünyasının PvP durumu sunucu yapılandırması tarafından devre dışı bırakıldı
+command.set.changed = "{worldName} dünyasının PvP durumu şimdi "

@@ -1,0 +1,18 @@
+status = "PvP is "
+status.on = AAN
+status.off = UIT
+
+join.misconfigured-worlds = "De server bevat werelden met PvP geforceerd op UIT. Controleer je serverconfiguratie om de SimplePvPToggler plugin te gebruiken.\nVerkeerd geconfigureerde werelden: "
+
+op-status = PvP-wereldstatussen:
+
+command.show.description = Toont PvP-status
+command.set.description = Stelt PvP-status in
+command.set.arg.state = Gewenste PvP-status ("on" of "off")
+command.set.arg.state.invalid = De nieuwe status moet "on" of "off" zijn
+command.set.arg.world = Doelwereld (huidige wereld standaard)
+command.set.arg.world.invalid = De wereld {worldName} kan niet worden gevonden
+command.set.already = "De PvP-status van wereld {worldName} is al "
+command.set.world-blacklisted = De PvP-status kan niet worden gewijzigd voor deze wereld
+command.set.world-misconfigured = De PvP-status van wereld {worldName} is uitgeschakeld door de serverconfiguratie
+command.set.changed = "De PvP-status van wereld {worldName} is nu "

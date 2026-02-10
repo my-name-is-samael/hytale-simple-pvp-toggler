@@ -1,0 +1,20 @@
+{
+  "Group": "com.tontonsamael",
+  "Name": "SimplePvPToggler",
+  "Version": "1.0.0",
+  "Description": "The simplest way to toggle PvP",
+  "Authors": [
+    {
+      "Name": "TontonSamaël",
+      "Email": "warkramzec@gmail.com",
+      "Url": ""
+    }
+  ],
+  "ServerVersion": "*",
+  "Dependencies": {
+    "Hytale:DamageModule": "*"
+  },
+  "DisabledByDefault": false,
+  "IncludesAssetPack": true,
+  "Main": "com.tontonsamael.SimplePvpToggler"
+}

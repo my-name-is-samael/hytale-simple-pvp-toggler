@@ -1,0 +1,18 @@
+status = "PvP är "
+status.on = PÅ
+status.off = AV
+
+join.misconfigured-worlds = "Servern innehåller världar med PvP tvingat till AV. Vänligen kontrollera din serverkonfiguration för att använda SimplePvPToggler-pluginet.\nFelkonfigurerade världar: "
+
+op-status = PvP-världars tillstånd:
+
+command.show.description = Visar PvP-status
+command.set.description = Ställer in PvP-status
+command.set.arg.state = Önskat PvP-tillstånd ("on" eller "off")
+command.set.arg.state.invalid = Det nya tillståndet måste vara "on" eller "off"
+command.set.arg.world = Målvärld (nuvarande värld som standard)
+command.set.arg.world.invalid = Världen {worldName} kan inte hittas
+command.set.already = "PvP-statusen för världen {worldName} är redan "
+command.set.world-blacklisted = PvP-statusen kan inte ändras för denna värld
+command.set.world-misconfigured = PvP-statusen för världen {worldName} är inaktiverad av serverkonfigurationen
+command.set.changed = "PvP-statusen för världen {worldName} är nu "

@@ -1,0 +1,18 @@
+status = "Il PvP è "
+status.on = ATTIVO
+status.off = DISATTIVATO
+
+join.misconfigured-worlds = "Il server contiene mondi con PvP forzato a DISATTIVATO. Controlla la configurazione del tuo server per usare il plugin SimplePvPToggler.\nMondo mal configurati: "
+
+op-status = Stati PvP dei mondi:
+
+command.show.description = Mostra lo stato PvP
+command.set.description = Imposta lo stato PvP
+command.set.arg.state = Stato PvP desiderato ("on" o "off")
+command.set.arg.state.invalid = Il nuovo stato deve essere "on" o "off"
+command.set.arg.world = Mondo target (mondo attuale di default)
+command.set.arg.world.invalid = Il mondo {worldName} non può essere trovato
+command.set.already = "Lo stato PvP del mondo {worldName} è già "
+command.set.world-blacklisted = Lo stato PvP non può essere cambiato per questo mondo
+command.set.world-misconfigured = Lo stato PvP del mondo {worldName} è disabilitato dalla configurazione del server
+command.set.changed = "Lo stato PvP del mondo {worldName} è ora "

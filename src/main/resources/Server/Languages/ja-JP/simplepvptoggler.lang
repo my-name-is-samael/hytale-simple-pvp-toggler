@@ -1,0 +1,18 @@
+status = "PvPは"
+status.on = 有効
+status.off = 無効
+
+join.misconfigured-worlds = "サーバーにPvPが強制的に無効になっているワールドが含まれています。SimplePvPTogglerプラグインを使用するにはサーバー設定を確認してください。\n設定が間違っているワールド："
+
+op-status = PvPワールドの状態：
+
+command.show.description = PvPステータスを表示
+command.set.description = PvPステータスを設定
+command.set.arg.state = 希望するPvP状態（"on"または"off"）
+command.set.arg.state.invalid = 新しい状態は"on"または"off"である必要があります
+command.set.arg.world = 対象ワールド（デフォルトは現在のワールド）
+command.set.arg.world.invalid = ワールド{worldName}が見つかりません
+command.set.already = "ワールド{worldName}のPvPステータスはすでに"
+command.set.world-blacklisted = このワールドのPvPステータスは変更できません
+command.set.world-misconfigured = ワールド{worldName}のPvPステータスはサーバー設定によって無効化されています
+command.set.changed = "ワールド{worldName}のPvPステータスは現在"
